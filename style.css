@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&display=swap');
+
+
+
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: aqua;
+    font-family: "Playwrite FR Moderne", cursive;;
+
+    text-align: center;
+}
+.flex>div{
+    display: inline-block;
+    background-color: lightgreen;
+    margin: 50px;
+    
+    border:3px solid black;
+    border-style: double dotted;
+    height: auto;
+
+}
